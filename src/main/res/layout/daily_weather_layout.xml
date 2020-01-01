@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/DailyWeatherRow"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="156dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textSize="19sp" />
+
+    <RelativeLayout
+        android:layout_width="17dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/dayWeatherIcon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:srcCompat="@drawable/weather_sunny" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/dayMinTemp"
+        android:layout_width="47dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="40.68"
+        android:textAlignment="viewStart"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/dayMaxTemp"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:gravity="center"
+        android:text="50.67"
+        android:textAlignment="viewStart"
+        android:textSize="19sp" />
+
+</LinearLayout>
